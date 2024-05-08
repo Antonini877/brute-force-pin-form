@@ -1,14 +1,14 @@
 # brute-force-pin-form
 Script that tries every combination for a 4 digit PIN by manipulating the form's DOM. The elements and the delay between requests can be configured.
 
-# How it works?
+## How it works?
 - Insert the correct submit button dom in submitButton attribute.
 - If the pin input is a unique input, turn uniqueDigitInput to true and fill digitInput.
 - If there are input for each char, fill the first, second, third and fourth elements.
 - Set the delay time on delayMs.
 - Paste on the console 
 
-# Config Example
+#### Config example
 
 ```javascript
 let configs = {
