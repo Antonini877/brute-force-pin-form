@@ -1,6 +1,8 @@
 # brute-force-pin-form
 Script that tries every combination for a 4 digit PIN by manipulating the form's DOM. The elements and the delay between requests can be configured.
 
+<b>The pin should follow the pattern [0-9]{4}.<b>
+
 ## How it works?
 - Insert the correct submit button dom in submitButton attribute.
 - If the pin input is a unique input, turn uniqueDigitInput to true and fill digitInput.
