@@ -8,7 +8,7 @@ Script that tries every combination for a 4 digit PIN by manipulating the form's
 - If the pin input is a unique input, turn uniqueDigitInput to true and fill digitInput.
 - If there are input for each char, fill the first, second, third and fourth elements.
 - Set the delay time on delayMs.
-- Paste on the console 
+- Paste to the console 
 
 #### Config example
 
